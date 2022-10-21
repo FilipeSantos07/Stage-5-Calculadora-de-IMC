@@ -23,8 +23,6 @@ function calculateIMC(event) {
        return alertError.open()
     }
 
-    alertError.close()
-
     let result = IMC(weight,height)
 
     Modal.open()
